@@ -12,6 +12,8 @@ Additional notes:
  - Fool/Joker in-game assets:
      - Fool/Joker attack and vuln cell/health assets was designed by dgim-studio / Freepik
      - Fool/Joker card art by LittleGoat on DeviantArt, pinterest found here: https://www.pinterest.ca/pin/536069161879601524/
+ - Fool/Joker scream sound effects:
+     - Both "scream" sound effects (radiance_hit and grimm_scream) are from Hollow Knight, originally created by Team Cherry.
 
 Unformally version 1.5 - this version of the project has slight custom changes compared to the one we handed in.
 
