@@ -6,7 +6,7 @@ Go to a specific tile to attack the enemies, and stay out of the tiles that will
 
 Additional notes:
  - Credits and documentation are inaccurate and incomplete. See below for details:
- - Music taken from YouTube uploads of CAPCOM's and Tokyo Active NEETS' concert renditions of in-game music
+ - Music taken from YouTube uploads of Tokyo Active NEETS' and CAPCOM's concert renditions of in-game music from the TOUHOU PROJECT by ZUN and the Monster Hunter games respectively
      - All credit for the work goes to the original players, composers, and arrangers. Infringement is not intended.
      - See "sounds" folder for more details on revised music.
  - Fool/Joker in-game assets:
