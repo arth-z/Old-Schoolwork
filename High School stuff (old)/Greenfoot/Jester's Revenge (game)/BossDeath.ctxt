@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=BossDeath
+comment0.text=\r\n\ A\ "skeleton"\ actor\ implementation\ of\ a\ death\ animation/gif.\r\n\ \r\n\ @author\ Arthur\ Zeng\r\n\ @version\ 1.00\r\n
+comment1.params=
+comment1.target=BossDeath()
+comment1.text=\r\n\ Initialises\ a\ variable\ called\ GifImage\ according\ to\ a\ gif\ in\ the\ system\ images.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Sets\ its\ own\ image\ to\ the\ current\ image\ of\ its\ GifImage\ (which\ cycles/loops\ endlessly).\r\n
+numComments=3

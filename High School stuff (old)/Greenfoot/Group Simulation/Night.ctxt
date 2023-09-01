@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Night
+comment0.text=\r\n\ A\ big\ black\ screen\ representing\ night\ time\ in\ the\ game's\ world.\r\n\ \r\n\ @author\ Steven\ Lu\r\n\ @version\ 2.00\r\n
+comment1.params=
+comment1.target=Night()
+comment1.text=\r\n\ Initialises\ two\ transparency\ variables,\ a\ timer,\ and\ initialises\ the\ object's\ image\ as\ a\ big\ black\ screen.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ Literally\ just\ fades\ in\ a\ giant\ black\ screen.\r\n
+comment3.params=w
+comment3.target=void\ addedToWorld(greenfoot.World)
+comment3.text=\r\n\ Sets\ the\ world\ field\ to\ the\ world\ it\ is\ added\ to.\r\n
+comment4.params=
+comment4.target=void\ sunsetAndSunrise()
+comment4.text=\r\n\ Method\ responsible\ for\ facilitating\ the\ sunrise\ and\ sunset\ of\ the\ world\ and\ changes\ the\ black\ screen\ in\ order\ to\ do\ so.\r\n
+numComments=5

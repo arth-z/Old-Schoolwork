@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Woman
+comment0.text=\r\n\ A\ female\ ranged\ attacker.\r\n\ Functionally,\ a\ skeleton\ implementation\ of\ methods\ in\ Villager.\r\n\ \r\n\ @author\ Arthur\ Zeng,\ Michael\ Liu\r\n\ @version\ 3.00\r\n
+comment1.params=maxSpeed\ maxHp\ direction
+comment1.target=Woman(int,\ int,\ int)
+comment1.text=\r\n\ The\ Woman\ constructor\ inherits\ the\ Villager\ constructor\ and\ passes\ its\ parameters\ into\ it\ as\ well,\ thereby\ fulfilling\ the\ same\ purpose.\r\n\ Besides\ that,\ it\ uses\ the\ initialiseSprites,\ addReflectedSprites,\ and\ fullInitialiseAttackSprites\ to\ initialise\ the\ sprite\ of\ the\ Woman.\r\n\ It\ also\ initialises\ the\ bowSwoosh\ sound\ effects\ that\ the\ Woman\ uses\ in\ meleeBehaviour.\r\n\ \r\n\ @param\ maxSpeed\ \ \ \ \ \ max\ speed\ of\ the\ spawned\ entity\r\n\ @param\ maxHp\ \ \ \ \ \ \ \ \ max\ health\ of\ the\ spawned\ entity\r\n\ @param\ direction\ \ \ \ \ either\ 1\ (right),\ -1\ (left),\ 2\ (up),\ or\ -2\ (down),\ determining\ the\ direction\ of\ the\ entity\ upon\ initial\ spawning\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ Perform\ the\ RangedBehaviour.\ Check\ if\ you're\ dead,\ or\ hungry.\r\n
+numComments=3

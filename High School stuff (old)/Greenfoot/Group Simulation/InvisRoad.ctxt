@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=InvisRoad
+comment0.text=\n\ An\ invisible\ dummy\ class\ with\ no\ acting\ code.\n\ As\ for\ its\ purpose\ in\ code,\ it\ serves\ as\ a\ point\ to\ which\ Villagers\ can\ orient\ themselves\ towards.\n\ \n\ @author\ Arthur\ Zeng\ and\ Michael\ Liu\n\ @version\ 1.00\n
+comment1.params=
+comment1.target=InvisRoad()
+comment1.text=\n\ All\ this\ constructor\ does\ is\ set\ the\ image\ of\ the\ object\ to\ be\ transparent.\n
+numComments=2

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=DeathEffect
+comment0.text=\n\ A\ skull\ that\ fades\ away\ upon\ being\ spawned.\ Based\ on\ the\ Bug\ Simulation's\ death\ effect.\n\ \n\ @author\ Arthur\ Zeng\n\ @version\ 2.0\n
+comment1.params=duration
+comment1.target=DeathEffect(int)
+comment1.text=\n\ This\ constructor\ inherits\ the\ superclass\ constructor,\ but\ passes\ in\ a\ GreenfootImage\ of\n\ a\ skull,\ automatically,\ so\ the\ only\ parameter\ to\ be\ passed\ in\ is\ duration.\n\ \n\ @param\ duration\ \ \ \ \ \ how\ long\ the\ effect\ stays\ on\ screen\ before\ it\ disappears.\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Acting\ causes\ this\ actor\ to\ fade\ away\ its\ own\ image\ over\ the\ course\ of\ its\ actCounter.\n\ After\ it's\ fully\ faded\ away,\ it\ is\ deleted\ from\ the\ world.\n
+numComments=3

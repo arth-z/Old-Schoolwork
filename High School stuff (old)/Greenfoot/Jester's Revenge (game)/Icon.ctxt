@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Icon
+comment0.text=\r\n\ Image\ that\ is\ toggled\ between\ 2\ sprites.\ Serves\ as\ a\ cooldown\ icon\ for\ Parry\ and\ Blank.\r\n\ \r\n\ @author\ Michael\ Liu\r\n\ @version\ 1.0\r\n
+comment1.params=sprite\ cooldownSprite
+comment1.target=Icon(greenfoot.GreenfootImage,\ greenfoot.GreenfootImage)
+comment1.text=\r\n\ Constructor\ accepts\ two\ sprites\ -\ one\ for\ active,\ one\ for\ on\ cooldown.\ Also\ sets\ cooldown\ (is\ on\ cooldown)\ to\ false.\r\n\ \r\n\ @param\ sprite\ \ \ \ \ \ \ \ \ \ \ \ sprite\ for\ when\ the\ icon\ is\ not\ on\ cooldown\r\n\ @param\ cooldownSprite\ \ \ \ sprite\ for\ when\ the\ icon\ is\ on\ cooldown\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Toggles\ its\ image\ based\ on\ the\ cooldown\ (is\ on\ cooldown)\ variable\ -\ whether\ or\ not\ it\ is\ on\ cooldown.\r\n
+comment3.params=cooldown
+comment3.target=void\ cooldown(java.lang.Boolean)
+comment3.text=\r\n\ Toggler\ for\ the\ cooldown\ variable.\ Can\ be\ changed\ to\ true\ or\ false,\ based\ on\ parameter.\r\n\ \r\n\ @param\ cooldown\ \ \ \ \ \ \ \ \ \ the\ boolean\ you\ want\ cooldown\ to\ be\ on\r\n
+numComments=4

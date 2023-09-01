@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Button
+comment0.text=\n\ A\ basic\ button\ superclass\ that\ executes\ code\ when\ its\ image\ is\ pressed.\n\ Contains\ an\ abstract\ "promise"\ of\ a\ method,\ doYourJob(),\ called\ in\ act\ when\ the\ actor\ is\ clicked.\n\ Some\ subclasses\ fulfill\ this\ promise\ and\ have\ an\ actual\ method,\ others\ have\ an\ empty\ method\ instead.\n\ \n\ @author\ Michael\ Liu\n\ @version\ 1.00\n
+comment1.params=
+comment1.target=void\ doYourJob()
+comment2.params=
+comment2.target=Button()
+comment2.text=\n\ The\ constructor\ for\ this\ class\ merely\ sets\ a\ field,\ a\ static\ boolean\ buttonsActive,\ representing\ if\ other\ buttons\ are\ active,\ to\ true.\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\n\ Act\ method\ consists\ of\ waiting\ to\ be\ clicked,\ then\ executing\ code\ based\ on\ whether\ or\ not\ it\ is\ clicked.\n\ If\ buttonsActive\ is\ false,\ aka\ it\ is\ determined\ that\ there\ shouldn't\ be\ any\ buttons\ in\ the\ world\ anymore,\ the\ button\ is\ deleted.\n
+comment4.params=
+comment4.target=void\ removeButtons()
+comment4.text=\n\ Mutator\ for\ a\ static\ boolean\ buttonsActive,\ representing\ if\ other\ buttons\ are\ active.\ Sets\ it\ to\ false.\n
+numComments=5

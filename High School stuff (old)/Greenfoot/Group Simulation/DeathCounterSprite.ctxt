@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=DeathCounterSprite
+comment0.text=\n\ A\ dummy\ actor\ meant\ to\ show\ an\ image\ of\ a\ skull\ and\ exactly\ nothing\ else.\n\ \n\ @author\ Arthur\ Zeng\n\ @version\ 1.00\n
+comment1.params=
+comment1.target=DeathCounterSprite()
+comment1.text=\n\ Sets\ the\ actor's\ image\ to\ a\ skull.\n
+numComments=2

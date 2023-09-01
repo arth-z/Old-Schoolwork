@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Button
+comment0.text=\r\n\ A\ basic\ button\ superclass\ that\ executes\ code\ when\ its\ image\ is\ pressed.\r\n\ Contains\ a\ method,\ doYourJob(),\ called\ in\ act\ when\ the\ actor\ is\ clicked.\r\n\ Some\ subclasses\ override\ this,\ some\ don't.\ By\ default,\ it\ sets\ the\ world\ to\ one\ passed\ in\ the\ parameter.\r\n\ \r\n\ @author\ Michael\ Liu\r\n\ @version\ 1.5\r\n
+comment1.params=sprite\ w
+comment1.target=Button(greenfoot.GreenfootImage,\ greenfoot.World)
+comment1.text=\r\n\ The\ constructor\ for\ this\ class\ sets\ the\ button\ to\ a\ specific\ sprite\ and\ sets\ the\ directory\ to\ a\ specific\ world.\r\n\ \r\n\ @param\ sprite\ \ \ \ \ \ \ \ sprite\ for\ the\ button\r\n\ @param\ w\ \ \ \ \ \ \ \ \ \ \ \ \ world\ to\ move\ to\ when\ the\ button\ is\ pressed\r\n
+comment2.params=
+comment2.target=void\ doYourJob()
+comment2.text=\r\n\ Transitions\ the\ world\ into\ the\ next,\ called\ when\ button\ is\ pressed.\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Act\ method\ consists\ of\ waiting\ to\ be\ clicked,\ then\ executing\ code\ based\ on\ whether\ or\ not\ it\ is\ clicked.\r\n\ If\ buttonsActive\ is\ false,\ aka\ it\ is\ determined\ that\ there\ shouldn't\ be\ any\ buttons\ in\ the\ world\ anymore,\ the\ button\ is\ deleted.\r\n
+numComments=4

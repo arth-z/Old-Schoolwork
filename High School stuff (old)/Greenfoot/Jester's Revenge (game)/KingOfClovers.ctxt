@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=KingOfClovers
+comment0.text=\r\n\ <p>\r\n\ The\ King\ of\ Clubs/Clovers\ (or\ Clubs/Clovers\ for\ short),\ a\ subclass\ implementation\ of\ the\ Boss\ class\ possessing\ not\ many\ unique\ variables\ of\ its\ own.\r\n\ Functionally\ identical\ to\ the\ other\ bosses\ -\ it\ calls\ Boss's\ act()\ cycle,\ possesses\ a\ unique\ attackControl()\ method\ as\ well\ as\ multiple\r\n\ other\ attack\ functions,\ and\ does\ the\ things\ that\ Boss's\ parent\ "blueprint"\ code\ tells\ it\ to.\r\n\ </p>\r\n\ \r\n\ <p>\r\n\ Clovers\ is\ a\ gimmick\ fight.\ The\ theming\ of\ clovers\ is\ luck,\ right?\ So\ the\ entire\ fight\ is\ an\ RNG\ fiesta,\ and\ Clovers'\ attacks\ are\ randomised\r\n\ both\ in\ speed\ and\ magnitude.\ Unlike\ the\ other\ bosses,\ he\ doesn't\ have\ the\ individual\ attack\ methods\ -\ each\ attack\ is\ in\ attackControl().\r\n\ </p>\r\n\ \r\n\ @author\ Arthur\ Zeng\r\n\ @version\ 1.00\r\n
+comment1.params=
+comment1.target=KingOfClovers()
+comment1.text=\r\n\ Constructor\ for\ clovers,\ initialises\ a\ few\ relevant\ variables\ (for\ boss-unique\ sprites,\ and\ attacks)\ and\ passes\ in\ a\ relevant\ GreenfootImage\ into\ super()\ as\ its\ image.\r\n
+comment2.params=
+comment2.target=void\ attackControl()
+comment2.text=\r\n\ attackControl()\ for\ the\ King\ of\ Clovers\ is\ actually\ slightly\ different\ from\ the\ way\ other\ Kings\ work.\r\n\ Here,\ Clovers\ doesn't\ actually\ have\ any\ set\ attacks,\ and\ attackControl()\ executes\ attacks\ directly\ based\ on\ complete\ randomness.\r\n\ There\ are\ still,\ however,\ 5\ possibilities\ of\ attacks,\ each\ with\ escalating\ speed\ and\ suddenness\ in\ exchange\ for\ AOE\ and\ area\ coverage.\r\n\ Quantity\ of\ cells\ covered,\ speed,\ telegraph\ duration\ remain\ *roughly*\ consistent,\ but\ which\ cells\ are\ targetted\ is\ more\ or\ less\ completely\ random.\r\n\ These\ make\ it\ so\ that\ Clovers\ *feels*\ random,\ but\ isn't\ so\ random\ so\ that\ the\ fight\ is\ incomprehensible.\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Act\ -\ super.act(),\ but\ once\ its\ health\ is\ depleted,\ it\ gets\ ready\ to\ spawn\ Hearts\ and\ Spades,\ if\ they're\ not\ already\ on\ the\ field.\r\n\ Sets\ a\ flag\ in\ the\ world\ to\ true\ that\ Clovers\ has\ been\ defeated\ if\ its\ health\ is\ depleted\ as\ well.\r\n
+comment4.params=
+comment4.target=boolean\ zeroKingOfHearts()
+comment4.text=\r\n\ Getter\ for\ whether\ or\ not\ there\ is\ currently\ a\ King\ of\ Hearts\ in\ the\ world\ right\ now.\r\n\ \r\n\ @return\ boolean\ \ \ \ \ \ \ \ \ \ true\ if\ there\ is\ a\ King\ of\ Hearts\ in\ the\ world,\ aflse\ if\ there\ is\ not.\r\n
+comment5.params=
+comment5.target=boolean\ zeroKingOfSpades()
+comment5.text=\r\n\ Getter\ for\ whether\ or\ not\ there\ is\ currently\ a\ King\ of\ Spades\ in\ the\ world\ right\ now.\r\n\ \r\n\ @return\ boolean\ \ \ \ \ \ \ \ \ \ true\ if\ there\ is\ a\ King\ of\ Spades\ in\ the\ world,\ aflse\ if\ there\ is\ not.\r\n
+numComments=6

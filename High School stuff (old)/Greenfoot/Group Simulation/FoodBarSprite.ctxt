@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=FoodBarSprite
+comment0.text=\n\ A\ dummy\ actor\ meant\ to\ show\ an\ image\ of\ a\ big\ chicken\ drumstick\ and\ exactly\ nothing\ else.\n\ \n\ @author\ Arthur\ Zeng\n\ @version\ 1.00\n
+comment1.params=
+comment1.target=FoodBarSprite()
+comment1.text=\n\ Sets\ the\ actor's\ image\ to\ a\ chicken\ drumstick.\n
+numComments=2

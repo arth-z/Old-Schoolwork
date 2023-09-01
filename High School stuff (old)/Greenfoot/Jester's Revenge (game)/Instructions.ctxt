@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Instructions
+comment0.text=\r\n\ Brief\ description\ of\ the\ controls,\ mechanics,\ and\ lore.\ TitleScreen\ transitions\ into\ this,\ which\ transitions\ into\ JestersRevenge.\r\n\ \r\n\ @author\ Arthur\ Zeng\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=Instructions()
+comment1.text=\r\n\ Just\ shows\ a\ bunnch\ of\ text\ on\ screen,\ sets\ world\ size,\ sets\ background,\ adds\ a\ button.\r\n
+numComments=2

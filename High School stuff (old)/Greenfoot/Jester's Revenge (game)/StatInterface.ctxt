@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=StatInterface
+comment0.text=\r\n\ Interface\ that\ serve\ as\ an\ anchor\ for\ icons.\ Basically,\ a\ black\ box.\r\n\ \r\n\ @author\ Michael\ Liu\ \r\n\ @version\ 1.0\r\n
+comment1.params=spacing\ sprite
+comment1.target=StatInterface(int,\ greenfoot.GreenfootImage)
+comment1.text=\r\n\ Sets\ its\ image\ to\ a\ passed\ in\ sprite,\ defines\ spacing\ based\ on\ a\ parameter.\r\n\ \r\n\ @param\ sprite\ \ \ \ \ \ \ \ \ \ \ \ the\ sprite\ of\ the\ interface.\r\n\ @param\ spacing\ \ \ \ \ \ \ \ \ \ \ the\ spacing\ between\ elements\ on\ that\ interface.\r\n
+comment2.params=x
+comment2.target=void\ addIcon(Icon)
+comment2.text=\r\n\ Adds\ an\ icon\ passed\ by\ parameter,\ to\ the\ StatInterface,\ based\ on\ spacing.\r\n\ \r\n\ @param\ x\ \ \ \ \ \ \ \ \ \ \ \ \ the\ Icon\ you\ want\ to\ add\ to\ the\ interface.\r\n
+numComments=3

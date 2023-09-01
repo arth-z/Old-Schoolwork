@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Projectile
+comment0.text=\r\n\ A\ projectile\ class\ used\ by\ Villager\ to\ deal\ damage\ to\ its\ enemies.\ Represents\ an\ arrow.\r\n\ \r\n\ @author\ Arthur\ Zeng\r\n\ @version\ 3.00\r\n
+comment1.params=target
+comment1.target=Projectile(Enemy)
+comment1.text=\r\n\ Initialises\ a\ target\ to\ seek\ from\ a\ parameter,\ and\ sets\ its\ image\ to\ an\ arrow.\r\n\ \r\n\ @param\ target\ \ \ \ \ \ \ the\ enemy\ this\ projectile\ should\ seek.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Seeks\ the\ target,\ and\ removes\ itself\ from\ the\ world\ when\ the\ target\ is\ no\ longer\ in\ the\ world.\r\n
+comment3.params=
+comment3.target=void\ attemptCollision()
+comment3.text=\r\n\ Method\ to\ seek\ a\ target.\ Moves\ towards\ its\ target,\ and\ if\ it\ intersects\ it,\ the\ target\ takes\ 20\ damage.\r\n
+numComments=4

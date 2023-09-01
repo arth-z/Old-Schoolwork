@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=TownHall
+comment0.text=\r\n\ A\ skeleton\ class\ representing\ a\ still\ image\ of\ a\ Town\ Hall.\r\n\ \r\n\ @author\ Steven\ Lu\r\n\ @version\ 3.00\r\n
+comment1.params=
+comment1.target=TownHall()
+comment1.text=\r\n\ Sets\ its\ image\ to\ a\ town\ hall.\r\n
+numComments=2

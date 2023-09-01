@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Effect
+comment0.text=\r\n\ A\ basic\ superclass\ for\ Effects\ -\ images\ that\ eventually\ fade\ away\ when\ first\ initialised.\r\n\ \r\n\ @author\ Arthur\ Zeng\r\n\ @version\ 3.00\r\n
+comment1.params=fadeAway\ image
+comment1.target=Effect(int,\ greenfoot.GreenfootImage)
+comment1.text=\r\n\ Sets\ an\ image\ to\ the\ one\ passed\ into\ the\ parameter,\ and\ sets\ its\ act\ counter,\ or\ duration\r\n\ to\ the\ integer\ passed\ into\ the\ parameters.\r\n\ \r\n\ @param\ duration\ \ \ \ \ \ the\ duration\ of\ the\ effect\ -\ how\ long\ it\ lingers\ before\ disappearing\r\n\ @param\ image\ \ \ \ \ \ \ \ \ the\ visual\ appearence\ of\ the\ effect,\ a\ GreenfootImage\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Acting\ causes\ this\ actor\ to\ fade\ away\ its\ own\ image\ over\ the\ course\ of\ its\ actCounter.\r\n\ After\ it's\ fully\ faded\ away,\ it\ is\ deleted\ from\ the\ world.\r\n
+numComments=3

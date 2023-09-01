@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=StartButton
+comment0.text=\r\n\ A\ subclass\ of\ Button\ that\ serves\ as\ a\ click-checker\ for\ whether\ or\ not\ the\ user\ wants\ to\ move\ on\ from\ the\ StartMenu\ to\ the\ ConfigScreen.\r\n\ Has\ a\ degree\ of\ content\ more\ than\ its\ dummy/skeleton\ peers.\r\n\ \r\n\ @author\ Michael\ Liu\r\n\ @version\ 1.00\r\n
+comment1.params=
+comment1.target=StartButton()
+comment1.text=\r\n\ Constructor\ sets\ the\ actor's\ image\ to\ a\ corresponding\ button\ of\ a\ green\ checkmark.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Calls\ super.act()\ -\ in\ other\ words,\ when\ it\ is\ clicked,\ it\ will\ do\ its\ job.\r\n
+comment3.params=
+comment3.target=void\ doYourJob()
+comment3.text=\r\n\ When\ clicked,\ this\ button\ sets\ Greenfoot's\ world\ as\ the\ config\ screen,\ moving\ the\ simulation\ forwards\ from\ the\ start\ menu\ to\ the\ config\ screen.\r\n
+numComments=4

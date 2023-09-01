@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Boss
+comment0.text=\r\n\ A\ large\ enemy\ that\ walks\ up\ to\ Villagers\ and\ does\ slam\ attacks.\ Tries\ to\ avoid\ buildings.\r\n\ \r\n\ @author\ Arthur\ Zeng,\ Michael\ Liu,\ Steven\ Lu\r\n\ @version\ 2.0\r\n
+comment1.params=maxSpeed\ maxHp\ direction
+comment1.target=Boss(int,\ int,\ int)
+comment1.text=\r\n\ The\ Boss\ constructor\ inherits\ the\ Enemy\ constructor\ and\ passes\ its\ parameters\ into\ it\ as\ well,\ thereby\ fulfilling\ the\ same\ purpose.\r\n\ Besides\ that,\ it\ also\ initialises\ the\ sound\ array\ for\ the\ enemy\ as\ well\ as\ its\ sprites,\ using\ the\ initialiseSprites,\ addReflectedSprites,\ and\ fullInitialiseAttackSprites\ methods.\r\n\ \r\n\ @param\ maxSpeed\ \ \ \ \ \ max\ speed\ of\ the\ spawned\ entity\r\n\ @param\ maxHp\ \ \ \ \ \ \ \ \ max\ health\ of\ the\ spawned\ entity\r\n\ @param\ direction\ \ \ \ \ either\ 1\ (right),\ -1\ (left),\ 2\ (up),\ or\ -2\ (down),\ determining\ the\ direction\ of\ the\ entity\ upon\ initial\ spawning\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Seeks\ targets\ if\ an\ existing\ target\ does\ not\ exist.\ If\ the\ target\ exists,\ orient\ towards\ it.\r\n\ If\ there\ is\ a\ target,\ and\ it\ is\ not\ touching\ one\ of\ its\ own\ slam\ attack\ AOEs,\ it\ walks\ towards\ the\ target\ until\ it\ reaches\ a\ specified\ range\r\n\ (the\ range\ of\ its\ slam\ attack\ AOE).\ Then\ it\ stops,\ and\ executes\ a\ slam\ attack,\ playing\ a\ corresponding\ sound.\r\n\ The\ slam\ attack\ has\ an\ AOE\ and\ deals\ damage\ to\ anything\ caught\ within\ it.\ Until\ the\ slam\ attack\ AOE\ has\ faded\ away\ or\ the\ boss\ moves\ out\ of\ it,\r\n\ it\ cannot\ do\ another\ slam\ attack\ (to\ prevent\ lag\ from\ repeatedly\ spamming\ slam\ attacks\ and\ taking\ up\ memory)\r\n\ Does\ death\ checks\ and\ collision\ checks\ consistently\ as\ well.\r\n
+numComments=3

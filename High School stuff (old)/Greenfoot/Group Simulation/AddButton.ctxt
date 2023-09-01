@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=AddButton
+comment0.text=\n\ A\ skeleton\ Button\ subclass\ that\ serves\ as\ a\ dummy\ click-checker\ in\ ConfigScreen.\n\ The\ doYourJob()\ promise\ is\ empty.\n\ \n\ @author\ Michael\ Liu\n\ @version\ 1.00\n
+comment1.params=
+comment1.target=AddButton()
+comment1.text=\n\ The\ constructor\ of\ this\ method\ sets\ the\ image\ of\ the\ actor\ to\ a\ corresponding\ image\ of\ a\ button.\n
+comment2.params=
+comment2.target=void\ doYourJob()
+numComments=3

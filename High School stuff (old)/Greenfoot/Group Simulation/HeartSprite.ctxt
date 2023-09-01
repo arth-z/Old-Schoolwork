@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=HeartSprite
+comment0.text=\r\n\ A\ dummy\ actor\ meant\ to\ show\ an\ image\ of\ a\ big\ crystal\ heart\ and\ exactly\ nothing\ else.\r\n\ \r\n\ @author\ Arthur\ Zeng\r\n\ @version\ 1.00\r\n
+comment1.params=
+comment1.target=HeartSprite()
+comment1.text=\r\n\ Sets\ the\ actor's\ image\ to\ a\ crystal\ heart.\r\n
+numComments=2

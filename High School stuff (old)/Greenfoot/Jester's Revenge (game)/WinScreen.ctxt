@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=WinScreen
+comment0.text=\r\n\ A\ victory\ screen\ -\ mostly\ empty\ world\ displaying\ some\ text,\ and\ a\ ScoreBoard.\r\n\ \r\n\ @author\ Arthur\ Zeng,\ Michael\ Liu\r\n\ @version\ 2.00\r\n
+comment1.params=newScore
+comment1.target=WinScreen(int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ winScreen.\r\n\ Adds\ the\ visual\ elements\ of\ the\ screen\ onto\ the\ world\ and\ accepts\ a\ score\ parameter\ to\ pass\ into\ UserInfo\ and\ its\ scoreboard.\r\n\ Accepts\ this\ score\ from\ JestersRevenge,\ typically.\r\n\ \r\n\ @param\ newScore\ \ \ \ \ \ \ \ \ \ the\ new\ score\ of\ the\ User,\ to\ be\ passed\ into\ a\ scoreboard\ or\ userinfo.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Stops\ Greenfoot.\r\n
+numComments=3

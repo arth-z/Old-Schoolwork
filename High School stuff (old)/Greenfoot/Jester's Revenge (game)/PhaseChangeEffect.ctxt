@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=PhaseChangeEffect
+comment0.text=\r\n\ A\ "scream"\ VFX\ for\ the\ Joker's\ phase\ transition.\ A\ semi-transparent\ white\ circle\ -\ it\ grows\ to\ encompass\ the\ whole\ screen,\ then\ eventually\ shrinks.\r\n\ \r\n\ @author\ Arthur\ Zeng\r\n\ @version\ 1.00\r\n
+comment1.params=actCounter\ image\ black
+comment1.target=PhaseChangeEffect(int,\ greenfoot.GreenfootImage,\ boolean)
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ phaseChangeEffect\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=3

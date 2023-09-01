@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Image
+comment0.text=\r\n\ Dummy\ class\ that\ holds\ an\ image.\r\n\ \r\n\ @author\ Michael\ Liu\r\n\ @version\ 1.0\r\n
+comment1.params=sprite
+comment1.target=Image(greenfoot.GreenfootImage)
+comment1.text=\r\n\ Accepts\ an\ image\ as\ parameter.\ Displays\ that\ image.\r\n\ \r\n\ @param\ sprite\ \ \ \ \ \ \ \ \ \ \ \ the\ image\ you\ want\ to\ display.\r\n
+numComments=2

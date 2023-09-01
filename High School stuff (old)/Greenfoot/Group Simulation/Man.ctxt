@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Man
+comment0.text=\r\n\ A\ man\ who\ defends\ the\ village\ -\ a\ melee\ warrior.\r\n\ Functionally,\ a\ skeleton\ implementation\ of\ the\ behavioural\ methods\ in\ Villager.\r\n\ \r\n\ @author\ Arthur\ and\ Michael\r\n\ @version\ 3.00\r\n
+comment1.params=maxSpeed\ maxHp\ direction
+comment1.target=Man(int,\ int,\ int)
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ Perform\ the\ MeleeBehaviour.\ Check\ if\ you're\ dead,\ or\ hungry.\r\n
+numComments=3

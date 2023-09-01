@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=TitleScreen
+comment0.text=\r\n\ The\ title\ screen\ for\ the\ game.\ Contains\ a\ bunch\ of\ buttons\ leading\ to\ other\ worlds.\ Goes\ into\ JestersRevenge\ directly,\ or\ through\ Instructions\ first.\r\n\ \r\n\ @author\ Michael\ Liu\r\n\ @version\ 2.00\r\n
+comment1.params=
+comment1.target=TitleScreen()
+comment1.text=\r\n\ Throws\ up\ a\ bunch\ of\ visual\ elements\ onscreen,\ sets\ the\ background,\ and\ displays\ buttons\ and\ relevant\ images.\r\n
+numComments=2

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=House
+comment0.text=\n\ A\ skeleton\ class\ representing\ a\ still\ image\ of\ a\ house.\n\ \n\ @author\ Steven\ Lu\ and\ Arthur\ Zeng\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=House()
+comment1.text=\n\ Sets\ its\ image\ to\ a\ house.\n
+numComments=2

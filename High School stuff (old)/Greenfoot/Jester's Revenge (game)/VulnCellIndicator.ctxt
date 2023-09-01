@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=VulnCellIndicator
+comment0.text=\r\n\ A\ "dummy"\ actor\ that\ sets\ its\ own\ image\ to\ a\ specific\ one,\ and\ nothing\ else.\r\n\ \r\n\ @author\ Arthur\ Zeng\r\n\ @version\ 1.00\r\n
+comment1.params=image
+comment1.target=VulnCellIndicator(greenfoot.GreenfootImage)
+comment1.text=\r\n\ Constructor\ for\ the\ VulnCellIndicator.\ Accepts\ a\ GreenfootImage\ parameter,\ then\ sets\ it\ as\ its\ own\ image.\r\n
+numComments=2

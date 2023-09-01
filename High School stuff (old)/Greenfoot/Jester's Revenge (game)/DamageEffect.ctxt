@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=DamageEffect
+comment0.text=\r\n\ An\ extension\ of\ the\ Effect\ class,\ but\ this\ time\ serving\ as\ a\ facilitator\ of\ a\ damage/telegraph\ system\ in\ the\ grid.\r\n\ Has\ a\ few\ extensions\ -\ unlike\ the\ Effect\ class,\ also\ has\ parameters\ controlling\ how\ quickly\ it\ fades\ in,\ and\ how\ long\ it\ stays\ opaque.\r\n\ \r\n\ @author\ Arthur\ Zeng\r\n\ @version\ 1.00\r\n
+comment1.params=fadeAway\ opaqueDuration\ speed\ sprite
+comment1.target=DamageEffect(int,\ int,\ double,\ greenfoot.GreenfootImage)
+comment1.text=\r\n\ Constructor\ for\ the\ DamageEffect.\ Initialises\ some\ timers\ and\ some\ other\ boolean\ variables\ to\ false\ as\ well,\ and\ initial\ transparency\ to\ 0.\r\n\ \r\n\ @param\ fadeAway\ \ \ \ \ \ \ \ \ \ number\ determining\ how\ quickly\ the\ damageEffect\ fades\ away,\ passed\ into\ super()\r\n\ @param\ opaqueDuration\ \ \ \ number\ determining\ how\ long\ the\ damage\ effect\ stays\ opaque\ (and\ damaging)\r\n\ @param\ speed\ \ \ \ \ \ \ \ \ \ \ \ \ how\ fast\ the\ damageEffect\ fades\ in\ to\ max\ opacity\r\n\ @param\ sprite\ \ \ \ \ \ \ \ \ \ \ \ the\ sprite/image\ of\ the\ damageEffect,\ passed\ into\ super()\r\n
+comment2.params=w
+comment2.target=void\ addedToWorld(greenfoot.World)
+comment2.text=\r\n\ DamageEffect,\ when\ added\ to\ a\ world,\ will\ cast\ that\ as\ a\ JestersRevenge\ type\ and\ save\ it\ to\ an\ instance\ variable\ to\ get\ easy\ access\ to\ its\ methods\r\n\ \r\n\ @param\ w\ \ \ \ \ \ \ \ \ the\ world\ this\ DamageEffect\ is\ added\ to.\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ DamageEffect's\ act\ method\ proceeds\ in\ three\ phases.\r\n\ First,\ the\ image\ fades\ in\ based\ on\ its\ speed\ parameter.\r\n\ Then,\ the\ image\ remains\ opaque\ until\ a\ timer\ exceeds\ its\ opaqueDuration.\r\n\ Finally,\ then\ it\ calls\ super.act()\ in\ order\ to\ fade\ away.\r\n
+numComments=4

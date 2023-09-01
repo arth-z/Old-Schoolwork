@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=FoodDeathEffect
+comment0.text=\r\n\ A\ chicken\ drumstick,\ inherited\ from\ Effect,\ that\ fades\ away\ over\ time.\r\n\ \r\n\ @author\ Arthur\ Zeng\r\n\ @version\ 1.00\r\n
+comment1.params=duration
+comment1.target=FoodDeathEffect(int)
+comment1.text=\r\n\ This\ constructor\ inherits\ the\ superclass\ constructor,\ but\ passes\ in\ a\ GreenfootImage\ of\r\n\ a\ chicken\ drumstick,\ automatically,\ so\ the\ only\ parameter\ to\ be\ passed\ in\ is\ duration.\r\n\ \r\n\ @param\ duration\ \ \ \ \ \ how\ long\ the\ effect\ stays\ on\ screen\ before\ it\ disappears.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Fades\ away\ over\ time\ based\ on\ duration,\ then\ deletes\ itself\ when\ fully\ transparent.\r\n
+numComments=3

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=InvisProjectile
+comment0.text=\r\n\ A\ small\ class\ for\ an\ arrow\ shot\ by\ an\ Archer,\ except\ it's\ invisible\ and\ is\ used\ for\ line\ of\ sight\ checks\ for\ Archer.\r\n\ \r\n\ @author\ Arthur\ Zeng\r\n\ @version\ 3.00\r\n
+comment1.params=target\ owner
+comment1.target=InvisProjectile(Enemy,\ Villager)
+comment1.text=\r\n\ The\ constructor\ for\ the\ InvisProjectile\ inherits\ from\ its\ superclass,\ so\ it\ picks\ a\ target\ to\ seek.\r\n\ It\ also\ sets\ the\ transparency\ of\ itself\ to\ 0.\r\n\ \r\n\ @param\ target\ \ \ \ \ \ \ the\ enemy\ this\ projectile\ should\ seek.\r\n\ @param\ owner\ \ \ \ \ \ \ \ the\ original\ villager\ who\ shot\ the\ arrow.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Inherits\ from\ super.act(),\ so\ it\ seeks\ its\ target.\r\n
+comment3.params=
+comment3.target=void\ attemptCollision()
+comment3.text=\r\n\ The\ attemptCollision()\ method\ is\ overriden\ (called\ in\ act\ method)\ by\ a\ method\ that\ tries\ to\ seek\ its\ target.\r\n\ If\ it\ collides\ into\ a\ building\ on\ the\ way,\ the\ owner\ of\ the\ arrow\ is\ removed\ from\ the\ target's\ "in\ LOS"\ arraylist\ (meaning\ they\ don't\ see\ each\ other).\r\n\ Otherwise,\ if\ the\ target\ is\ tagged\ by\ this\ invisible\ arrow,\ the\ owner\ is\ added\ to\ the\ target's\ "in\ LOS"\ arraylist\ (meaning\ they\ DO\ see\ each\ other)\r\n
+numComments=4

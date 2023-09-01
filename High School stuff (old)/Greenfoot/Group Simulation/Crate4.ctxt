@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Crate4
+comment0.text=\n\ Skeleton\ class,\ decoration.\ An\ image\ of\ a\ crate.\n\ \n\ @author\ Steven\ Lu\ \n\ @version\ 1.00\n
+comment1.params=
+comment1.target=Crate4()
+comment1.text=\n\ Sets\ the\ image\ of\ the\ actor\ to\ a\ crate.\n
+numComments=2

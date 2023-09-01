@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=ConfirmButton
+comment0.text=\r\n\ A\ subclass\ of\ Button\ that\ serves\ as\ a\ click-checker\ for\ whether\ or\ not\ the\ user\ wants\ to\ move\ on\ from\ the\ Config\ Screen.\r\n\ Has\ a\ degree\ of\ content\ more\ than\ its\ dummy/skeleton\ peers.\r\n\ \r\n\ @author\ Michael\ Liu\r\n\ @version\ 1.00\r\n
+comment1.params=
+comment1.target=ConfirmButton()
+comment1.text=\r\n\ Constructor\ sets\ the\ actor's\ image\ to\ a\ corresponding\ button\ of\ a\ green\ checkmark.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Calls\ super.act().\r\n
+comment3.params=w
+comment3.target=void\ addedToWorld(greenfoot.World)
+comment3.text=\r\n\ When\ added\ to\ any\ world,\ the\ ConfirmButton\ sets\ that\ world\ as\ one\ of\ its\ fields,\ but\ not\ before\ casting\ it\ as\ the\ ConfigScreen\ type.\r\n
+comment4.params=
+comment4.target=void\ doYourJob()
+comment4.text=\r\n\ When\ the\ ConfirmButton\ "does\ its\ job",\ or\ when\ it's\ clicked,\ it\ instantiates\ a\ new\ KDSAbove\ world\ and\ then\ sets\ the\ GreenfootWorld\ to\ that\ world.\r\n\ In\ other\ words,\ it\ moves\ the\ simulation\ forward\ from\ the\ ConfigScreen\ to\ the\ simulation\ proper.\r\n
+numComments=5

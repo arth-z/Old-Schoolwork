@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=StartMenu
+comment0.text=\r\n\ A\ start\ menu\ for\ the\ simulation.\ Has\ a\ "start"\ button\ that\ moves\ forwards\ to\ the\ config\ screen.\r\n\ \r\n\ @author\ Michael\ Liu\r\n\ @version\ 1.00\r\n
+comment1.params=
+comment1.target=StartMenu()
+comment1.text=\r\n\ Creates\ a\ new\ world,\ sets\ its\ background\ to\ an\ appropriate\ image,\ and\ spawns\ a\ button\ that,\ when\ pressed,\ moves\ the\ world\ forwards\ to\ the\ config\ screen.\r\n\ Also,\ sets\ an\ appropriate\ paint\ order\ so\ that\ the\ button\ is\ over\ the\ StartMenu,\ which\ is\ over\ the\ ConfigScreen,\ over\ the\ Simulation\ proper.\r\n
+numComments=2

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=SlamAttackAOE
+comment0.text=\n\ A\ big\ white\ circle\ that\ fades\ away\ upon\ being\ spawned.\ Acts\ as\ a\ visual\ indicator\ of\ a\ slam\ attack,\ by\ Boss.\n\ \n\ @author\ Arthur\ Zeng\n\ @version\ 2.0\n
+comment1.params=
+comment1.target=SlamAttackAOE()
+comment1.text=\n\ Calls\ its\ super\ constructor,\ and\ passes\ into\ it\ a\ new\ 200x200\ vacant\ GreenfootImage.\n\ It\ then\ initialises\ that\ image\ into\ a\ big\ white\ circle,\ 200x200.\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Calls\ super.act()\ -\ fades\ away\ over\ time\ based\ on\ actCounter,\ then\ deletes\ itself\ when\ fully\ transparent.\n
+numComments=3

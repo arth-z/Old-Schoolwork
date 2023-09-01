@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=UI
+comment0.text=\r\n\ This\ class\ serves\ as\ an\ empty\ abstract\ class\ meant\ to\ contain\ all\ user\ interface\ related\ classes,\ this\ class\ is\ created\ purely\ for\ the\ sake\ of\ organization.\r\n\ \r\n\ @author\ Michael\ Liu\ \r\n\ @version\ 1.0\r\n
+comment1.params=sprite
+comment1.target=UI(greenfoot.GreenfootImage)
+comment1.text=\r\n\ S\r\n
+comment2.params=
+comment2.target=UI()
+numComments=3

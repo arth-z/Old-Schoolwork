@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=DayNightIcon
+comment0.text=\r\n\ An\ icon\ that\ changes\ based\ on\ the\ day/night\ status\ of\ the\ world.\r\n\ \r\n\ @author\ Arthur\ Zeng\r\n\ @version\ 1.00\r\n
+comment1.params=
+comment1.target=DayNightIcon()
+comment1.text=\r\n\ By\ default,\ sets\ the\ image\ to\ the\ sun.\r\n
+comment2.params=w
+comment2.target=void\ addedToWorld(greenfoot.World)
+comment2.text=\r\n\ Sets\ world\ to\ KDSAbove\ when\ it's\ to\ the\ added\ to\ world.\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Changes\ its\ icon\ (sun\ or\ moon)\ corresponding\ to\ the\ day/night\ status\ of\ the\ world\ it\ is\ in.\r\n
+numComments=4

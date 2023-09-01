@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Fodder
+comment0.text=\r\n\ A\ basic\ skeleton\ enemy\ that\ walks\ up\ to\ villagers,\ moving\ around\ buildings,\ and\ tries\ to\ punch\ them.\r\n\ \r\n\ @author\ Arthur\ Zeng,\ Steven\ Lu,\ and\ Michael\ Liu\r\n\ @version\ 3.00\r\n
+comment1.params=maxSpeed\ maxHp\ direction
+comment1.target=Fodder(int,\ int,\ int)
+comment1.text=\r\n\ The\ Fodder\ constructor\ inherits\ the\ Enemy\ constructor\ and\ passes\ its\ parameters\ into\ it\ as\ well.\r\n\ Besides\ that,\ it\ also\ initialises\ the\ sound\ array\ for\ the\ enemy\ as\ well\ as\ its\ sprites,\ using\ the\ initialiseSprites,\ addReflectedSprites,\ and\ fullInitialiseAttackSprites\ method.\r\n\ \r\n\ @param\ maxSpeed\ \ \ \ \ \ max\ speed\ of\ the\ spawned\ entity\r\n\ @param\ maxHp\ \ \ \ \ \ \ \ \ max\ health\ of\ the\ spawned\ entity\r\n\ @param\ direction\ \ \ \ \ either\ 1\ (right),\ -1\ (left),\ 2\ (up),\ or\ -2\ (down),\ determining\ the\ direction\ of\ the\ entity\ upon\ initial\ spawning\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Seeks\ targets\ if\ an\ existing\ target\ does\ not\ exist.\ If\ the\ target\ exists,\ orient\ towards\ it.\r\n\ If\ there\ is\ a\ target,\ it\ walks\ towards\ the\ target\ until\ it\ reaches\ a\ specified\ range,\ or\ when\ they\ touch\r\n\ Then\ it\ stops,\ and\ attacks\ it,\ cycling\ through\ an\ animation\ as\ it\ does\ so.\r\n\ Plays\ a\ skeleton\ sound\ effect\ when\ it\ attacks.\r\n\ Does\ death\ checks\ and\ collision\ checks\ consistently\ as\ well.\r\n
+numComments=3

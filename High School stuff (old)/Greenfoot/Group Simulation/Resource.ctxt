@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Resource
+comment0.text=\r\n\ A\ wild\ animal\ that\ exists\ to\ be\ killed\ and\ provide\ Food\ for\ villagers.\r\n\ \r\n\ @author\ Arthur\ Zeng,\ Steven\ Lu,\ Michael\ Liu\r\n\ @version\ 2.00\r\n
+comment1.params=maxSpeed\ maxHp\ direction
+comment1.target=Resource(int,\ int,\ int)
+comment1.text=\r\n\ The\ Resource\ constructor\ inherits\ the\ Enemy\ constructor\ and\ passes\ its\ parameters\ into\ it\ as\ well.\r\n\ Besides\ that,\ it\ also\ initialises\ the\ sound\ array\ for\ the\ enemy\ as\ well\ as\ its\ sprites,\ using\ the\ initialiseSprites\ and\ addReflectedSprites\ methods.\r\n\ It\ also\ randomly\ determines\ whether\ or\ not\ the\ spawned\ resource\ will\ be\ a\ cow\ or\ pig,\ and\ initialises\ the\ sound\ values.\r\n\ \r\n\ @param\ maxSpeed\ \ \ \ \ \ max\ speed\ of\ the\ spawned\ entity\r\n\ @param\ maxHp\ \ \ \ \ \ \ \ \ max\ health\ of\ the\ spawned\ entity\r\n\ @param\ direction\ \ \ \ either\ 1\ (right),\ -1\ (left),\ 2\ (up),\ or\ -2\ (down),\ determining\ the\ direction\ of\ the\ entity\ upon\ initial\ spawning\r\n
+comment2.params=
+comment2.target=void\ die()
+comment2.text=\r\n\ Override\ for\ the\ die()\ method\ inherited\ from\ Entity.\ This\ is\ because\ it\ serves\ different\ functions\:\r\n\ \ -\ Spawns\ a\ food\ effect\ instead\ of\ a\ death\ effect\r\n\ \ -\ increments\ the\ food\ counter\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Play\ noise,\ and\ orient\ towards\ the\ invisible\ ring\ of\ roads\ around\ the\ perimeter\ of\ the\ village\ to\ prevent\ wandering\ off.\r\n\ That\ ring\ is\ the\ same\ ring\ the\ villagers\ orient\ towards\ at\ night\ in\ their\ defensive\ behavioural\ loops.\r\n
+comment4.params=
+comment4.target=void\ resourceSounds()
+comment4.text=\r\n\ Method\ to\ facilitate\ the\ playing\ of\ sounds.\r\n\ Rolls\ a\ 1/2000\ to\ play\ either\ a\ moo\ or\ an\ oink.\r\n
+numComments=5
