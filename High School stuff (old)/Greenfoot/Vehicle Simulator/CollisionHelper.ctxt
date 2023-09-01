@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=CollisionHelper
+comment0.text=\r\n\ A\ collision\ helper\ for\ the\ lane\ change\ method,\ meant\ as\ the\ same\ size\ as\ a\ car.\r\n\ Acts\ essentially\ as\ a\ transparent\ actor\ dummy.\r\n
+comment1.params=
+comment1.target=CollisionHelper()
+comment2.params=
+comment2.target=void\ act()
+comment3.params=type
+comment3.target=boolean\ helperIsTouching(java.lang.Class)
+numComments=4

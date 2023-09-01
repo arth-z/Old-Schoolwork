@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=BlackScreen
+comment0.text=\r\n\ A\ black\ screen\ that\ ideally\ covers\ the\ entire\ world,\ and\ fades\ in\ when\ it's\ spawned,\ then\ stays\ there\ until\ removed.\r\n\ Helper\ class\ for\ the\ DivineRetribution.\r\n\ \r\n\ @author\ (Arthur\ Zeng)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=BlackScreen()
+comment2.params=w
+comment2.target=void\ addedToWorld(greenfoot.World)
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Act\ -\ Literally\ just\ fades\ in\ a\ giant\ black\ screen.\r\n
+numComments=4

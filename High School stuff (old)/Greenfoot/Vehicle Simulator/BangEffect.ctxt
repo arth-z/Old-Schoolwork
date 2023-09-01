@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=BangEffect
+comment0.text=\r\n\ A\ DeathEffect\ clone\ but\ with\ a\ different\ image.\r\n\ Despite\ it\ not\ actually\ making\ sense\ in\ the\ idea-sense,\ it\ inherits\ from\ DeathEffect.\r\n
+comment1.params=
+comment1.target=BangEffect()
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ BangEffect\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=3

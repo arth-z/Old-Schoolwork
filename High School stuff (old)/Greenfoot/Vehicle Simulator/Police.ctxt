@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Police
+comment0.text=\r\n\ Never\ runs\ people\ over\ -\ pursues\ the\ guilty.\ Cats\ are\ fair\ game,\ though.\r\n\ Would\ rather\ destroy\ itself\ in\ shame\ than\ let\ a\ guilty\ party\ escape\r\n
+comment1.params=origin
+comment1.target=Police(VehicleSpawner)
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Police\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=boolean\ checkHitPedestrian()
+comment4.params=range
+comment4.target=void\ scan(int)
+comment5.params=a
+comment5.target=boolean\ seek(greenfoot.Actor)
+comment6.params=
+comment6.target=void\ myJobHereIsDone()
+numComments=7

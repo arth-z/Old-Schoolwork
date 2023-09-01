@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Cat
+comment0.text=\r\n\ A\ cat.\ Less\ health\ than\ a\ Person,\ can\ get\ picked\ up\ by\ other\ vehicles,\ gets\ run\ over\ by\ different\ ones.\r\n
+comment1.params=direction
+comment1.target=Cat(int)
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Cat\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ die()
+numComments=4

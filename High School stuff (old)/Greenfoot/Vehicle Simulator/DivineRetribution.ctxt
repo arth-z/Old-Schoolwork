@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=DivineRetribution
+comment0.text=\r\n\ The\ DivineRetribution\ -\ a\ sarcastic\ implementation\ of\ divine\ punishment\ upon\ the\ VehicleWorld\r\n\ for\ the\ wrathfulness\ of\ its\ inhabitants\ -\ aka,\ it\ spawns\ in\ after\ too\ many\ pedestrians\ are\ killed,\ and\ wipes\ out\ everything\r\n\ on\ screen\ using\ the\ same\ graphic\ as\ most\ deaths\ in\ the\ VehicleWorld\r\n\ \r\n\ @author\ (ArthurZeng)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=DivineRetribution()
+comment2.params=w
+comment2.target=void\ addedToWorld(greenfoot.World)
+comment3.params=
+comment3.target=void\ paused()
+comment4.params=
+comment4.target=void\ act()
+comment4.text=\r\n\ Act\ -\ do\ whatever\ the\ DivineRetribution\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=5

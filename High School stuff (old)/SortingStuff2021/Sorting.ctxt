@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Sorting
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Sorting\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=values
+comment2.target=int[]\ mySort(int[])
+comment3.params=num
+comment3.target=int[]\ bubbleSort(int[])
+comment4.params=num
+comment4.target=int[]\ bubbleSortSteps(int[])
+comment5.params=theArray\ report
+comment5.target=boolean\ checkResults(int[],\ boolean)
+comment5.text=\r\n\ Sort\ result\ checker.\r\n\ \r\n\ This\ modular\ method\ will\ check\ any\ given\ array\ of\ integers\ and\ \r\n\ return\ true\ if\ the\ values\ are\ correctly\ sorted\ or\ false\ if\ there\r\n\ are\ any\ errors.\ Setting\ the\ parameter\ boolean\ reporting\ to\ true\r\n\ will\ also\ output\ the\ results\ to\ the\ screen.\r\n\ \r\n\ @param\ theArray\ \ The\ array\ of\ integers\ that\ you\ want\ to\ check\r\n\ @param\ report\ \ \ \ True\ if\ you\ want\ results\ displayed\ to\ the\ screen\r\n\ @return\ boolean\ \ True\ if\ the\ values\ are\ in\ numerical\ order\r\n\ \r\n\ @author\ Jordan\ Cohen\r\n\ @version\ April\ 2014\r\n
+comment6.params=fileName
+comment6.target=int[]\ loadIntArrayFromFile(java.lang.String)
+numComments=7

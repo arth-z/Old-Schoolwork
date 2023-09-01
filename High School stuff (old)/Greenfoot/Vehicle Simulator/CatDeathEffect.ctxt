@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=CatDeathEffect
+comment0.text=\r\n\ Another\ clone\ of\ DeathEffect,\ but\ with\ a\ cat\ skull\ this\ time.\r\n
+comment1.params=
+comment1.target=CatDeathEffect()
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ CatDeathEffect\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=3

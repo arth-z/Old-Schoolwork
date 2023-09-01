@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Background
+comment0.text=\r\n\ Starter\ code\ for\ Image\ Manipulation\ Array\ Assignment.\r\n\ \r\n\ The\ class\ Processor\ contains\ all\ of\ the\ code\ to\ actually\ perform\r\n\ transformation.\ The\ rest\ of\ the\ classes\ serve\ to\ support\ that\r\n\ capability.\ This\ World\ allows\ the\ user\ to\ choose\ transformations\r\n\ and\ open\ files.\r\n\ \r\n\ Notes\:\ \r\n\ \r\n\ the\ interface\ gets\ very\ crowded\ when\ an\ image\ is\ loaded\ in\ with\ an\ extremely\ large\ size\r\n\ (i.e.\ 4096x3048)\r\n\ \r\n\ Both\ save\ file\ options\ save\ the\ file\ regardless\ of\ if\ you\ close\ the\ window,\ or\ click\ "ok".\ The\ code\ was\ provided\ to\ us\ like\ this.\r\n\ This\ has\ taken\ way\ too\ much\ effort\ to\ even\ try\ to\ fix,\ so\ I\ haven't\ fixed\ it.\r\n\ \r\n\ Add\ to\ it\ and\ make\ it\ your\ own\!\r\n\ Sepia\ Credit\:\ "https\://stackoverflow.com/questions/1061093/how-is-a-sepia-tone-created"\ for\ providing\ the\ algorithm.\r\n\ Contrast\ Credit\:\ "https\://math.stackexchange.com/questions/906240/algorithms-to-increase-or-decrease-the-contrast-of-an-image"\r\n\ SuperWindow\ Credit\:\ Mr\ Cohen\ Library\ v1.13\r\n\ \r\n\ @author\ Jordan\ Cohen\r\n\ @version\ November\ 2013\r\n
+comment1.params=
+comment1.target=Background()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Background.\r\n\ \r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act()\ method\ just\ checks\ for\ mouse\ input\r\n
+comment3.params=
+comment3.target=void\ checkMouse()
+comment3.text=\r\n\ Check\ for\ user\ clicking\ on\ a\ button\r\n
+comment4.params=
+comment4.target=void\ saveFile()
+comment5.params=
+comment5.target=void\ saveFileJPG()
+comment6.params=
+comment6.target=void\ openFile()
+comment6.text=\r\n\ Allows\ the\ user\ to\ open\ a\ new\ image\ file.\r\n
+comment7.params=newBi
+comment7.target=greenfoot.GreenfootImage\ createGreenfootImageFromBI(java.awt.image.BufferedImage)
+comment7.text=\r\n\ Takes\ in\ a\ BufferedImage\ and\ returns\ a\ GreenfootImage.\r\n\ \r\n\ @param\ newBi\ The\ BufferedImage\ to\ convert.\r\n\ \r\n\ @return\ GreenfootImage\ \ \ A\ GreenfootImage\ built\ from\ the\ BufferedImage\ provided.\r\n
+comment8.params=
+comment8.target=greenfoot.MouseInfo\ getMouseInfo()
+comment8.text=\r\n\ Sharing\ mouseInfo\ is\ important.\r\n\ \r\n\ Greenfoot\ can\ only\ poll\ Greenfoot.getMouseInfo()\ once\ per\ act.\ I\ suggest\r\n\ putting\ this\ in\ your\ World\ so\ that\ your\ Actors\ can\ share\ this.\ Otherwise,\r\n\ literally\ only\ one\ object\ can\ access\ the\ mouse\ data\ per\ act,\ which\ is\ not\ ideal.\r\n\ Note\ that\ this\ World's\ act\ method\ contains\ m\ \=\ Greenfoot.getMouseInfo,\ and\ that\r\n\ the\ act\ order\ sets\ the\ World\ to\ act\ first.\r\n\ \r\n\ @return\ MouseInfo\ the\ current\ state\ of\ the\ mouse\ as\ captured\ by\ World\ at\ the\ start\ of\ this\ act\r\n
+numComments=9

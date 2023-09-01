@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Cyclist
+comment0.text=\r\n\ A\ Person\ on\ a\ bicycle.\ When\ colliding\ with\ another\ Person,\ the\ cyclist\ is\ also\ knocked\ down.\r\n\ Picks\ up\ cats.\ Usually\ slow.\r\n
+comment1.params=origin
+comment1.target=Cyclist(VehicleSpawner)
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Cyclist\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ crash()
+comment4.params=
+comment4.target=boolean\ checkHitPedestrian()
+comment5.params=
+comment5.target=boolean\ isDowned()
+numComments=6
