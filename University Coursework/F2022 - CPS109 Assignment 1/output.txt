@@ -1,0 +1,33 @@
+--------------------------------------------------------------------------------------
+Note: this only works for quadratic functions with a, b, and c values that are integers whose absolute values are less than 10.
+Enter a quadratic expression in standard form (ax^2+by+c, lowercase variables only, avoid brackets): x^2+x-1
+Terms in the quadratic formula: a = 1, b = 1, c = -1
+Roots:
+x = 0.6180339887498949
+x = -1.618033988749895
+--------------------------------------------------------------------------------------
+Note: this only works for quadratic functions with a, b, and c values that are integers whose absolute values are less than 10.
+Enter a quadratic expression in standard form (ax^2+by+c, lowercase variables only, avoid brackets): -8 - 3x - x^2
+Terms in the quadratic formula: a = -1, b = -3, c = -8
+Roots:
+x = Nonreal root
+x = Nonreal root
+--------------------------------------------------------------------------------------
+Note: this only works for quadratic functions with a, b, and c values that are integers whose absolute values are less than 10.
+Enter a quadratic expression in standard form (ax^2+by+c, lowercase variables only, avoid brackets): 2x^2 - 8
+Terms in the quadratic formula: a = 2, b = 0, c = -8
+Roots:
+x = 2.0
+x = -2.0
+--------------------------------------------------------------------------------------
+Note: this only works for quadratic functions with a, b, and c values that are integers whose absolute values are less than 10.
+Enter a quadratic expression in standard form (ax^2+by+c, lowercase variables only, avoid brackets): 3x - 2x^2
+Terms in the quadratic formula: a = -2, b = 3, c = 0
+Roots:
+x = -0.0
+x = 1.5
+--------------------------------------------------------------------------------------
+Note: this only works for quadratic functions with a, b, and c values that are integers whose absolute values are less than 10.
+Enter a quadratic expression in standard form (ax^2+by+c, lowercase variables only, avoid brackets): -x-3
+Terms in the quadratic formula: a = 0, b = -1, c = -3
+Not a quadratic function!
