@@ -8,6 +8,8 @@ Additional notes:
  - Credits and documentation are inaccurate and incomplete. See below for details:
  - Music taken from YouTube uploads of Kokyo Active NEETS' and CAPCOM's concert renditions of in-game music from TOUHOU PROJECT by ZUN and the Monster Hunter games by CAPCOM respectively
      - All credit for the work goes to the original players, composers, and arrangers. Infringement is not intended.
+     - Music from Monster Hunter: "Red Glare in the Darkness" - Nargacuga's Theme, and "Electric Rebel" - Astalos' theme
+     - Music from TOUHOU PROJECT: "Necrofantasia", "Pandemonic Planet", "Pure Furies ~ Whereabouts of the Heart"
  - Fool/Joker in-game assets:
      - Fool/Joker attack and vuln cell/health assets was designed by dgim-studio / Freepik
      - Fool/Joker card art by LittleGoat on DeviantArt, pinterest found here: https://www.pinterest.ca/pin/536069161879601524/
