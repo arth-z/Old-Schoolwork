@@ -1,3 +1,0 @@
-Program works mostly in line with skeleton/given comments and should match the output in the video. I don't feel that what I did was too complicated, so don't expect a comment for every single line, but most code does what the given comment (or skeleton code) says it should - that, or it copies the format of existing skeleton code.
-
-No PODCAST functionality, but there are also additional error messages based around edge cases, probably.
